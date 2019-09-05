@@ -1,4 +1,4 @@
-# Ocarina <img src="images/ocarina_n64.png" alt="ocarina icon" width="40"/>
+# <img src="images/ocarina_n64.png" alt="ocarina icon" width="40"/> Ocarina
 
 An implementation of The Legend of Zelda: Ocarina of Time's beloved ocarina controls.
 
