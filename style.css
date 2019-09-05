@@ -42,24 +42,29 @@ html {
 }
 
 .a {
-  background: url('/images/button-A.svg') center;
+  background: url('./images/button-A.svg') center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .c-u {
-  background: url('/images/button-c-up.svg') center;
+  background: url('./images/button-c-up.svg') center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .c-r {
-  background: url('/images/button-c-right.svg') center;
+  background: url('./images/button-c-right.svg') center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .c-l {
-  background: url('/images/button-c-left.svg') center;
+  background: url('./images/button-c-left.svg') center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .c-d {
-  background: url('/images/button-c-down.svg') center;
+  background: url('./images/button-c-down.svg') center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .playing {
