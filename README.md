@@ -1,4 +1,4 @@
-# Ocarina ![Ocarina icon](./images/ocarina_n64.png)
+# Ocarina ![Ocarina icon](./images/ocarina_n64.png =40x40)
 
 An implementation of The Legend of Zelda: Ocarina of Time's beloved ocarina controls.
 
