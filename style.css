@@ -1,0 +1,79 @@
+html {
+  font-size: 10px;
+  background: url('./images/hyrule-background.png') bottom center;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+}
+
+.a {
+  background: url('/images/button-A.svg') center;
+  background-size: contain;
+}
+.c-u {
+  background: url('/images/button-c-up.svg') center;
+  background-size: contain;
+}
+.c-r {
+  background: url('/images/button-c-right.svg') center;
+  background-size: contain;
+}
+.c-l {
+  background: url('/images/button-c-left.svg') center;
+  background-size: contain;
+}
+.c-d {
+  background: url('/images/button-c-down.svg') center;
+  background-size: contain;
+}
+
+.playing {
+  transform: scale(1.2);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
