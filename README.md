@@ -6,4 +6,4 @@ An implementation of The Legend of Zelda: Ocarina of Time's beloved ocarina cont
 
 Play it using the `A` `↑` `→` `↓` `←` keys on your keyboard!
 
-@sidiousvic
+by @sidiousvic
