@@ -1,4 +1,5 @@
 window.addEventListener("keydown", (e) => {
+  if (e.repeat) return;
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
   if (!audio) return;
@@ -24,9 +25,9 @@ window.addEventListener("mousedown", (e) => {
 
 window.addEventListener("keyup", (e) => {
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-  key.classList.remove("playing");
+  if (key) key.classList.remove("playing");
 });
 
 window.addEventListener("mouseup", (e) => {
-  e.target.classList.remove("playing");
+  if (e.target) e.target.classList.remove("playing");
 });
