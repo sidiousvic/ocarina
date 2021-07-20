@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./images/hyrule-background.gif') bottom center;
+  background: url("./images/hyrule-background.gif") bottom center;
   background-size: cover;
 }
 
@@ -19,6 +19,15 @@ html {
   background: black;
   opacity: 0.2;
   z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  font-size: 30px;
 }
 
 .keys {
@@ -42,27 +51,27 @@ html {
 }
 
 .a {
-  background: url('images/button-A.svg') center;
+  background: url("images/button-A.svg") center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .c-u {
-  background: url('images/button-c-up.svg') center;
+  background: url("images/button-c-up.svg") center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .c-r {
-  background: url('images/button-c-right.svg') center;
+  background: url("images/button-c-right.svg") center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .c-l {
-  background: url('images/button-c-left.svg') center;
+  background: url("images/button-c-left.svg") center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .c-d {
-  background: url('images/button-c-down.svg') center;
+  background: url("images/button-c-down.svg") center;
   background-size: contain;
   background-repeat: no-repeat;
 }
